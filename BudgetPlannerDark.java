@@ -316,7 +316,7 @@ public class BudgetPlannerDark extends JFrame {
 
         int progressPct = 0;
         if (recommendedGoal > 0) {
-            double achieved = Math.max(0, remaining); // only positive remaining contributes to savings
+            double achieved = Math.max(0, remaining);
             progressPct = (int) Math.round((achieved / recommendedGoal) * 100.0);
             if (progressPct < 0) {
                 progressPct = 0;
@@ -340,7 +340,7 @@ public class BudgetPlannerDark extends JFrame {
 
             if (progressPct >= 100) {
                 lblStatus.setText("Status: 🎉 Goal achieved! You saved ₹" + df.format(remaining));
-                lblStatus.setForeground(new Color(124, 209, 76)); // green
+                lblStatus.setForeground(new Color(124, 209, 76));
             } else if (progressPct >= 50) {
                 lblStatus.setText("Status: 👍 On track — save a little more to hit the goal.");
                 lblStatus.setForeground(ACCENT);
@@ -440,3 +440,4 @@ public class BudgetPlannerDark extends JFrame {
         SwingUtilities.invokeLater(BudgetPlannerDark::new);
     }
 }
+
