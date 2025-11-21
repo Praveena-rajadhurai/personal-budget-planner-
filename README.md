@@ -38,12 +38,12 @@ If expenses exceed salary:
 If expenses are within limits:
 - Shows "You are budgeting perfectly!" message
 
-### ✔ 5. Automatic 20% Savings Goal
+
 The app checks:
-- If savings ≥ 20% → Perfect Saver ⭐  
+- If savings ≥ 20% → Perfect Saver   
 - If savings < 20% → Suggests how to save more  
 
-### ✔ 6. Goal Tracking (Optional Feature)
+
 - Monthly savings goal  
 - How much to save every month  
 - Progress indicator  
@@ -72,7 +72,7 @@ java BudgetPlannerDark
 
 ---
 
-## 📸 Screenshots (Add later)
+
 You can add screenshots of your UI like:
 - Home screen  
 - Input form  
